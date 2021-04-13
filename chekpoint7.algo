@@ -1,0 +1,24 @@
+ALGORITHM checkpoint7
+VAR
+    
+    long:INTEGER:=0;
+    c:CHAR;
+    s:STRING;
+    i:INTEGER;
+    countword:INTEGER:=0;
+    countvowels:INTEGER:=0;
+BEGIN
+
+FOR each character in string s
+WHILE (c <>.) DO
+    long:= long+1;
+END_WHILE
+write(long)
+FOR (i=0;i<long;i++)
+ sentence[i] = " "
+    countword:=  countword+1;
+FOR (i=0;i<count;i++)
+ sentence[i] = " a, e, i, o, u"
+   countvowels:= countvowel+1
+
+END
